@@ -87,7 +87,7 @@ npm run dev
 
 <div align="center">
  <a href="https://x.com/JaquermanD" target="_blank"> 
-   <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="twitter logo" style="margin-right: 10px;"  />
+   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="twitter logo" style="margin-right: 10px;"  />
  </a>
  <a href="https://discord.gg/aSr9ryQDvP" target="_blank">
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="discord logo" style="margin-right: 10px;" />
