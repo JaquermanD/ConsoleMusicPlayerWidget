@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #646cff;
+  color: black;
+}
+/* Estilo general de la consola */
+.console {
+  width: 600px;
+  border-radius: 5px;
+  background-color: #1e1e1e; /* Fondo oscuro */
+  color: #ffffff; /* Texto claro */
+  font-family: "Courier New", Courier, monospace; /* Tipografía de consola */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Barra de título estilo terminal */
+.console-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d; /* Un poco más claro que el fondo */
+  padding: 5px 10px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Botones de la barra de título */
+.console-header-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.console-header-buttons .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.console-header-buttons .close {
+  background-color: #ff5f56; /* Rojo */
+}
+
+.console-header-buttons .minimize {
+  background-color: #ffbd2e; /* Amarillo */
+}
+
+.console-header-buttons .maximize {
+  background-color: #27c93f; /* Verde */
+}
+
+/* Contenido de la consola */
+.console-body {
+  padding: 20px;
+}
+
+.console-body p {
+  margin: 0 0 10px;
+}
+
+.console-body .progress-bar {
+  display: none; /* Ocultamos la barra de progreso normal */
+  background-color: #444; /* Fondo de la barra de progreso */
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.console-body .progress-bar .progress {
+  background-color: #2ecc71; /* Verde para el progreso */
+  height: 100%;
+}
+
+/* Texto del comando */
+.console-body .command {
+  color: #c5c8c6; /* Gris claro para comandos */
+}
+
+/* Opcional: texto desactivado */
+.console-body .option-disabled {
+  color: #666; /* Oscuro para texto deshabilitado */
+}
+
+/* root@jaquerman en rojo */
+.console-body .command span {
+  color: red; /* Color rojo para el prompt */
+}
+
+/* Título de la canción en negrita */
+.console-body #title {
+  font-weight: bold;
+}
+
+/* Artista en negrita */
+.console-body #artist {
+  font-weight: bold;
+}
+
+/* # en la barra de progreso en verde y negritas */
+.console-body .progress-bar .progress {
+  color: #2ecc71; /* Verde */
+  font-weight: bold; /* Negritas */
+}
+
+/* --nowplaying en gris */
+.console-body .command .option-disabled {
+  color: #666; /* Gris oscuro para --nowplaying */
+}
+
+.ascii-progress {
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  color: #33cc33; /* Verde para la barra de progreso */
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Bloques llenos (#) - verde y negrita */
+.console-body .progress-block-filled {
+  color: green;
+  font-weight: bold;
+}
+
+/* Bloques vacíos (-) - gris claro */
+.console-body .progress-block-empty {
+  color: #555; /* Gris claro para los bloques vacíos */
+}
