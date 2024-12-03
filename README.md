@@ -24,6 +24,12 @@
 
 ConsoleMusicPlayerWidget es un widget de música inspirado en la estética de una consola, que integra la API de Spotify para sincronizar y mostrar la música que escuchas en tiempo real.
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 # ⚒️Características
 
 <li>Integración con Spotify API: Visualiza la canción que se está reproduciendo en Spotify.</li>
@@ -37,8 +43,12 @@ ConsoleMusicPlayerWidget es un widget de música inspirado en la estética de un
 <li>React Router Dom: Enrutador para aplicaciones React.</li>
 <li>Axios: Cliente HTTP para interactuar con la API de Spotify.</li>
 
+<<<<<<< HEAD
 # 🗒️Requisitos
 
+=======
+# 🗒️Requisitos 
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 <li>Node.js: Versión 16.18.0 o superior.</li>
 <li>NPM: Versión 8.19.2 o superior.</li>
 
@@ -50,13 +60,19 @@ ConsoleMusicPlayerWidget es un widget de música inspirado en la estética de un
 
 git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 # Navega al directorio
 
 ```bash
 cd ConsoleMusicPlayerWidget
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 # Instala las dependencias
 
 ```bash
@@ -64,7 +80,10 @@ cd ConsoleMusicPlayerWidget
 npm install
 
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 # Inicia el proyecto
 
 ```bash
@@ -72,6 +91,7 @@ npm install
 npm run dev
 
 ```
+<<<<<<< HEAD
 
 > [!TIP]
 > Puedes modificar el nombre de usuario que aparece en la terminal desde el mismo codigo (Trabajando en personalizarlo)
@@ -83,6 +103,20 @@ npm run dev
 
 # 🌐Social Media
 
+=======
+> [!TIP]
+> Puedes modificar el nombre de usuario que aparece en la terminal desde el mismo codigo (Trabajando en personalizarlo)
+
+
+# 🗺️Roadmap
+<li>Mejoras Varias: Correción de errores</li>
+<li>Mejor UI: Entorno visual mas atractivo en desarrollo en desarrollo</li>
+
+
+# 🌐Social Media
+
+
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 ###
 
 <div align="center">
@@ -99,6 +133,10 @@ npm run dev
 
 ###
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d970b56e02cf02bbeae1b17bdb8b6170c076c308
 > Estaria genial si le das Star y me das feedback para mejorar en futuros proyectos ;)
 
 Estare actualizando, nos vemos pronto!
